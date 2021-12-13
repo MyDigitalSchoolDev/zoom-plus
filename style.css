@@ -1,0 +1,28 @@
+body {
+    height: 2000px;
+}
+
+
+.img {
+    width: 100%;
+    -webkit-mask-image: url("/images/plus.png");
+    mask-image: url("/images/plus.png") ;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    -webkit-mask-size:100px;
+    mask-size: 100px;
+    transition: 2s;
+}
+
+.zoom {
+    -webkit-mask-size:1000px;
+    mask-size: 1000px;
+    transition: 2s;
+}
+.zoom1 {
+    -webkit-mask-size:10000px;
+    mask-size: 10000px;
+    transition: 2s;
+}
