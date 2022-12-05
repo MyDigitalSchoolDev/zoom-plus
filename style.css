@@ -5,8 +5,8 @@ body {
 
 .img {
     width: 100%;
-    -webkit-mask-image: url("/images/plus.png");
-    mask-image: url("/images/plus.png") ;
+    -webkit-mask-image: url("images/plus.png");
+    mask-image: url("images/plus.png") ;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     mask-position: center;
